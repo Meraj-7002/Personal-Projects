@@ -1,0 +1,36 @@
+header{
+    text-align: center;
+    height: 15vh;
+    width: auto;
+}
+body{
+    background-color: lightcyan;
+    height: 100%;
+    width: auto;
+}
+.container{
+    background-image: url("./asset/bg-keyfeatures.png");
+    height: 70vh;
+    width: 70vh;
+    margin: 0 auto;
+    box-shadow: 10px 10px 15px 1px;
+}
+.submit{
+    background-color: lightcyan;
+    border-color: lightcyan;
+    margin-left: 1vh;
+    padding: 1vh;
+}
+.submit:hover {
+    background-color: cyan;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+    font-size: 4vh;
+}
+#todo{
+    margin: 1vh;
+    padding: 1vh;
+}
